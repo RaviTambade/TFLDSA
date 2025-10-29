@@ -71,14 +71,8 @@ That’s where your knowledge of **DSA** transforms from classroom concepts into
 and that’s what makes you a *developer who builds performance-driven, cost-optimized, cloud-ready software.*
 
 
-Perfect 👍
-Here’s a **continuation and expansion** of your story — written in **mentor-style narration**, connecting the **Software Development Life Cycle (SDLC)**, **Cloud Billing**, and **DSA Impact** — as if you’re speaking directly to your students during a session.
-
-
-
 ## 🧑‍🏫 “Code That Runs in the Cloud”
 
-When I talk about software development, I tell my students —
 software is not just something that runs on your laptop.
 It’s something that lives and breathes in the **cloud**, serving thousands or even millions of users.
 
