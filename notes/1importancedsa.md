@@ -51,10 +51,6 @@ For example:
 
 These choices make your software lighter, faster, and more cost-efficient.
 
-### 💬 **What I Tell My Students**
-
-I tell my students:
-
 > “When you write code, imagine every line as a tiny worker in a cloud factory.
 > If they work smart, your factory runs efficiently.
 > If they waste time and energy, your factory burns money.”
@@ -185,10 +181,6 @@ So we analyze, measure, and refactor —
 and that’s how real engineers mature: by learning to *listen to the system.*
 
 
-### 🌱 **The Mentor’s Message**
-
-I always tell my students:
-
 > “When your software runs in the cloud, your code is not just logic —
 > it’s a living entity consuming resources, costing money, and affecting users.
 > Your DSA knowledge is the fuel efficiency of that engine.”
@@ -314,10 +306,6 @@ the principle is the same:
 
 > **Build software that works beautifully and runs economically.**
 
-### 🌱 **The Mentor’s Message**
-
-When I narrate this story to my students, I tell them —
-
 > “The real mark of a professional developer is not how fast they can write code,
 > but how thoughtfully they can make it run — fast, reliable, and cost-efficient.”
 
@@ -328,11 +316,6 @@ it’s about **performance, scalability, and sustainability**.
 And that’s where your knowledge of **Data Structures and Algorithms** becomes your greatest asset —
 not just for coding interviews,
 but for building real systems that survive, scale, and succeed in the cloud.
-
- Beautiful — you’re conveying a *teaching philosophy* that connects **conceptual curiosity with practical awareness**, rather than syntax-driven learning.
-
-Here’s how you can present this in your **mentor-style storytelling tone**, blending emotion, real-world relevance, and guidance — perfect for introducing **Data Structures and Algorithms (DSA)** to students in your class or workshop.
-
 
 ## 🧑‍🏫  “Learning DSA from the Top, Not from the Bottom”**
 
@@ -430,10 +413,6 @@ they’re recreating the logic that powers the world’s greatest systems.
 That’s when **learning transforms into creation.**
 
  
-### 🌱 **The Mentor’s Message**
-
-I always tell my students —
-
 > “Don’t learn DSA to crack an interview.
 > Learn DSA to understand how the world’s smartest software thinks.”
 
