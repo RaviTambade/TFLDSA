@@ -1,23 +1,4 @@
-
-# So rather than becoming a *developer* first, become an **engineer**.
-
-Because you see, a developer writes code… but an engineer **solves problems**.
-And that’s the difference between *building something* and *building something that lasts*.
-
-Now remember this very carefully — **AI will not save your career**.
-Your **fundamentals** will.
-
-If you understand the core principles — *why* systems behave the way they do, *how* code talks to hardware, *what* makes software scale — then no matter which technology comes and goes, *you’ll stand strong*.
-
-So today, what kind of skill do we really want to build?
-A skill where a person **thinks like a human but works like a machine**.
-That’s the essence of being an engineer — empathy in design, precision in execution.
-
-Now, there’s one extra file I’ve given you — a simple `.md` file.
-If you ever get time, go through it.
-That file introduces you to something called **System Design** — a topic that separates coders from architects, and developers from thinkers.
-
-Let me explain this in a story-like way.
+# Microscopic   vs Macroscpic Approach in Software
 
 When you learn **data structures**, you go deep into the *microscopic* world of computer science — you optimize memory, time complexity, recursion, graphs, trees, and algorithms.
 
