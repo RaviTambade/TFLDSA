@@ -2,6 +2,8 @@
 #include <stdbool.h>
 //global variable
 int marks=56;
+
+//implementation of function
 void showDetails(){
     int sum=67;
     int * ptrResult= (int *)malloc (sizeof(int));  //pointer
@@ -9,10 +11,20 @@ void showDetails(){
     printf("Transfower TAP Details !");
     printf( "Sum,= %d", sum);
     printf("Result= %d", *ptrResult);
+
+    showDetails();   //recursive call
+    
 }
 
 int main(){
-    for(int i=0;i<=10000;i++){
-        showDetails();  //invoke
+    int count=0;
+    while(count < 10)
+    {
+        showDetails();  //invoke function
+                        //call function
+                        //resolve function
+                        //Jump to function
+                        //Excute 
+        count++;
     }  
 }
