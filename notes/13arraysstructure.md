@@ -246,8 +246,6 @@ Remember:
 
 > *Languages are just tools. Logic is the real language of a developer.*
 
-(🎓 **Mentor storytelling mode on**)
-
 All right everyone, let’s pause here for a second. Let me just take you a little back in time to the way we started our coding journey. Remember the small piece of code we wrote last week — `demo.c`?
 Yes, exactly! The one where we simply created a function called **showDetails()**, and then called it from our **main()** function. That was our very first baby step into understanding how a C program breathes and runs.
 
@@ -319,8 +317,6 @@ That’s where the idea of a **collection** or **array** comes in — a structur
 So what we’ve just done — declaring 5 separate integer variables — gives us a perfect motivation to learn our next topic: **Arrays in C**.
 
 💡 *So our story today begins with repetition… and ends with realization — that there must be a smarter way to store similar data together.*
-
-(🎓 **Mentor storytelling style — continued**)
 
 Perfect. Let’s pause and *feel* what just happened in our little program, okay?
 
