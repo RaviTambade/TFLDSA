@@ -13,7 +13,6 @@ void showDetails(){
     printf("Result= %d", *ptrResult);
 
     showDetails();   //recursive call
-    
 }
 
 int main(){
