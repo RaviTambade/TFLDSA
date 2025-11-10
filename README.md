@@ -16,7 +16,7 @@ and how to **design smart steps** to solve problems (like planning the watering 
 
 At **Transflower**, our journey begins not with code, but with *thought*.
 
-In our classroom at **Tamade Mala**, we don’t rush into syntax;
+In our classroom at **Tambade Mala**, we don’t rush into syntax;
 we begin by asking — *why do we even need data structures?*
 
 We explored:
