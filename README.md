@@ -1,4 +1,4 @@
-# 🌱 Learning Data Structures & Algorithms (DSA) at Transflower
+# 🌱 Data Structures & Algorithms  Transflower way
 
 Welcome to the **Transflower Learning Experience**,
 where every line of code grows like a seed — nurtured by curiosity, watered by logic, and blossoming into structured thought. 🌸
