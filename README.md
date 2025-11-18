@@ -14,6 +14,9 @@ That’s exactly where DSA helps us —
 it teaches us how to **organize data efficiently** (like arranging flowers in rows)
 and how to **design smart steps** to solve problems (like planning the watering schedule).
 
+
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.Introduction.md">0.Let us get started</a><br>
+
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/1.importancedsa.md">1.Importance of DSA</a><br>
 
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/2.systemdesign.md">2.System Design Overview</a><br>
