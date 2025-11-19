@@ -3,11 +3,14 @@
 #include "Book.cpp"
 #define size 5
 using namespace std;
+
 class Shelf{
+    
     private :
          int top;  //represent index of the shelf
          Book books[size];
     public:
+
         Shelf(){
             this->top=-1;
         }

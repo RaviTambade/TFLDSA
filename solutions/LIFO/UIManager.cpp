@@ -7,6 +7,7 @@
 using namespace std;
 
 class UIManager {
+
 private:
     Shelf theShelf; 
     
@@ -46,7 +47,6 @@ public:
                     theShelf.push(newBook);
                 }
                 break;
-
             case 2:
                 theShelf.pop();
                 break;

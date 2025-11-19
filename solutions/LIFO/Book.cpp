@@ -7,6 +7,7 @@ class Book{
         public:
             string title;
             string author;   
+            
             Book(){
                 this->title="Rich Dad Poor Dad";
                 this->author="Robert K";
