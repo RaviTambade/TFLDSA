@@ -1,20 +1,67 @@
 #include <iostream>
-#include "Linkedlist.cpp"
+#include "utils/filemanager.cpp"
+#include "utils/uimanager.cpp"
+#include "ds/linkedlist.cpp"
 
-int main(){
+int main (){
+    
+    FileManager mgrFileIO ;
 
-    LinkedList list;
-   
-    list.insert(45);
-    list.insert(67);
-    list.insert(87);
-    list.insert(64);
-    list.insert(112);
+    LinkedList list ;
 
-    list.display();
-   /// list.search(87);
-   // list.remove(67);
+    UIManager mgrUI ;
+    list = mgrFileIO.deserialize("data.txt");
 
-   // list.display();
-    return 0;
+    int choice ;
+    while (true)
+    {
+        mgrUI.showMenu();
+        choice = mgrUI.getChoice(choice);
+        switch (choice) {
+            case 1 :
+                {
+                    int item ;
+                    cout<<"enter value to insert "<< endl ;
+                    cin>> item ;
+                    list.insert(item);
+                    break ;
+            } 
+
+            case 2 :
+                {
+                    int item ;
+                    cout<<"enter value to search "<< endl ;
+                    cin>> item ;
+                    list.search(item);
+                    break ;
+            }   
+
+            case 3 :
+                {
+                    list.display();
+                    break ;
+            }
+
+            case 4 :
+                {
+                    int item ;
+                    cout<<"enter value to remove "<< endl ;
+                    cin>> item ;
+                    list.remove(item);
+                    break ;
+            }
+
+            case 5 :
+                {
+                    mgrFileIO.serialize(list, "data.txt");
+                return 0    ;
+            }
+
+
+
+        }
+    
+    }
 }
+//g++ Node.cpp LinkedList.cpp uimanager.cpp main.cpp -o main.exe
+//g++ Node.cpp LinkedList.cpp fileManager.cpp main.cpp -o main.exe

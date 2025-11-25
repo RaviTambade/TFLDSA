@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutions", "solutions", "{5A177B4B-6BD0-B7EC-F049-C9C04D6D229D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS", "CS", "{5009AE36-C9B3-F1FE-5FDD-2A3A85C2F0FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linkeList", "solutions\CS\linkeList\linkeList.csproj", "{95892858-D618-562E-CEF6-DE054C6F80A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95892858-D618-562E-CEF6-DE054C6F80A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95892858-D618-562E-CEF6-DE054C6F80A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95892858-D618-562E-CEF6-DE054C6F80A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95892858-D618-562E-CEF6-DE054C6F80A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5009AE36-C9B3-F1FE-5FDD-2A3A85C2F0FE} = {5A177B4B-6BD0-B7EC-F049-C9C04D6D229D}
+		{95892858-D618-562E-CEF6-DE054C6F80A1} = {5009AE36-C9B3-F1FE-5FDD-2A3A85C2F0FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DE53428-2DEE-4410-A285-7CE500C3AB96}
+	EndGlobalSection
+EndGlobal
