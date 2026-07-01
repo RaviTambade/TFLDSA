@@ -40,14 +40,15 @@ and how to **design smart steps** to solve problems (like planning the watering 
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/12.heapintelligence.md">12.Intelligence Behind Heap/a><br>
 
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/13.arraysstructure.md">13.Using Arrays</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/18.linkedlist.md">14.Using Linked List</a><br>
 
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/14..greenhouse.md">14.Transflower Greenhouse Automation</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/14..greenhouse.md">15.Transflower Greenhouse Automation</a><br>
 
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/15.TFLGreenhouseimpl.md">15.Applying Logic for Transflower Greenhouse Solution</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/15.TFLGreenhouseimpl.md">16.Applying Logic for Transflower Greenhouse Solution</a><br>
 
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/16.Stack1.md">16.Applying Stack Data Structure</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/16.Stack1.md">17.Applying Stack Data Structure</a><br>
 
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/17.libmgmt.md">17.Transflower Book Library</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/17.libmgmt.md">18.Transflower Book Library</a><br>
 
 
 ## 🎯 Learning Approach
