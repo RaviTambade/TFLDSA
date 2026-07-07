@@ -49,8 +49,6 @@ We blend:
 * 💡 **Hands-on Practice** — writing, running, and observing behavior.
 * 🗣️ **Mentor Conversations** — storytelling that connects logic to real life.
 
-  
-
 ## 🚀 Outcome
 
 By the end of this journey, you won’t just “know” DSA —
@@ -58,8 +56,6 @@ you’ll **think in structures**, **act with logic**, and **code with purpose**.
 
 You’ll see your programs not as instructions to the computer,
 but as *stories of data in motion* — each with a beginning, middle, and end.
-
- 
 
 ## 💬 Closing Thought
 
