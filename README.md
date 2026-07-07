@@ -16,25 +16,27 @@ and how to **design smart steps** to solve problems (like planning the watering 
 
 
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.Roadmap.md">1.DSA Roadmap</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.Introduction.md">2.Let us get started</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/1.importancedsa.md">3.Importance of DSA</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/2.systemdesign.md">4.System Design Overview</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/3.fundamentals.md">5.DSA Fundamentals</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/4.stackapplications.md">6.Stack Data Structure in Real World Applications</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.roadmaptfldsa180.md">2.DSA Everyday</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.Introduction.md">3.Let us get started</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/1.importancedsa.md">4.Importance of DSA</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/2.systemdesign.md">5.System Design Overview</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/3.fundamentals.md">6.DSA Fundamentals</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/4.stackapplications.md">7.Stack Data Structure in Real World Applications</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/5.execution.md">8.Application Exeuction on the top of Operating System</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/6.memory.md">9.Memory Utilization during Execution</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/7.ThreadStack.md">7.Thread Stack</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/8.Functions.md">8.Functions</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/10.heap.md">10.Heap Memory in Execution</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/11.heapmanagement.md">11.Heap Memory Management</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/12.heapintelligence.md">12.Intelligence Behind Heap/a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/13.arraysstructure.md">13.Using Arrays</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/18.linkedlist.md">14.Using Linked List</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/queue.md">15.Queue (FIFO)</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/stack.md">16.Stack (LIFO)</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/14..greenhouse.md">17.Transflower Greenhouse Automation</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/15.TFLGreenhouseimpl.md">18.Applying Logic for Transflower Greenhouse Solution</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/17.libmgmt.md">19.Transflower Book Library</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/7.ThreadStack.md">10.Thread Stack</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/8.Functions.md">11.Functions</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/10.heap.md">12.Heap Memory in Execution</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/11.heapmanagement.md">13.Heap Memory Management</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/12.heapintelligence.md">14.Intelligence Behind Heap/a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/13.arraysstructure.md">15.Using Arrays</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/18.linkedlist.md">16.Using Linked List</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/19.doublylinkedlist.md">17.Using Dobuly Linked List</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/queue.md">18.Queue (FIFO)</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/stack.md">19.Stack (LIFO)</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/14..greenhouse.md">20.Transflower Greenhouse Automation</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/15.TFLGreenhouseimpl.md">21.Applying Logic for Transflower Greenhouse Solution</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/17.libmgmt.md">22.Transflower Book Library</a><br>
 
 ## 🎯 Learning Approach
 
