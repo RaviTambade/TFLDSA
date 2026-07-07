@@ -1,5 +1,4 @@
-# 🌱 Data Structures & Algorithms  Transflower way
-
+# 🌱 Data Structures & Algorithms
 Welcome to the **Transflower Learning Experience**,
 where every line of code grows like a seed — nurtured by curiosity, watered by logic, and blossoming into structured thought. 🌸
 
@@ -13,7 +12,6 @@ Every problem you solve is like planting a new flower — but unless you know **
 That’s exactly where DSA helps us —
 it teaches us how to **organize data efficiently** (like arranging flowers in rows)
 and how to **design smart steps** to solve problems (like planning the watering schedule).
-
 
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.Roadmap.md">1.DSA Roadmap</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.roadmaptfldsa180.md">2.DSA Everyday</a><br>
@@ -66,4 +64,3 @@ but as *stories of data in motion* — each with a beginning, middle, and end.
 
 At **Transflower**, DSA is not just a subject —
 it’s the *art of thinking in layers*, the *science of structure*, and the *language of logic*.
- 
