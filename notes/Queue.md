@@ -15,18 +15,12 @@ Think about your daily life.
 * Calling customer support.
 * Printing documents from multiple computers.
 
-In each of these situations, the person who arrives first is served first.
-
-This simple principle is known as **FIFO (First In, First Out)**.
-
-The **Queue** data structure follows exactly the same principle.
+In each of these situations, the person who arrives first is served first. This simple principle is known as **FIFO (First In, First Out)**. The **Queue** data structure follows exactly the same principle.
 
 
 # A Story from an Insurance Company
 
-Imagine you are developing software for **Transflower Insurance Services**.
-
-At 9:00 AM, customers start visiting the office.
+Imagine you are developing software for **Transflower Insurance Services**. At 9:00 AM, customers start visiting the office.
 
 ```
 Rahul arrives.
@@ -78,9 +72,7 @@ This is exactly how a Queue works.
 
 # What is a Queue?
 
-A Queue is a linear data structure that stores elements in the order they arrive.
-
-The first element inserted is the first element removed.
+A Queue is a linear data structure that stores elements in the order they arrive. The first element inserted is the first element removed.
 
 ```
 First In
@@ -92,11 +84,7 @@ First In
 First Out
 ```
 
-This is called
-
-**FIFO**
-
-**First In First Out**
+This is called **FIFO** **First In First Out**
 
 # Queue Terminology
 
@@ -134,9 +122,7 @@ A Queue mainly supports four operations.
 
 Insert a new element.
 
-Example
-
-A new customer purchases insurance.
+Example A new customer purchases insurance.
 
 ```
 Rahul
@@ -163,11 +149,7 @@ Vikram is added at the **Rear**.
 
 ## 2. Dequeue
 
-Remove the first element.
-
-Rahul's work is completed.
-
-He leaves.
+Remove the first element. Rahul's work is completed. He leaves.
 
 ```
 Before
@@ -350,21 +332,13 @@ Verification 103
 ## Customer Support Queue
 
 Customer calls
-
 ↓
-
 Support Request Created
-
 ↓
-
 Added to Queue
-
 ↓
-
 Assigned to Support Executive
-
 ↓
-
 Resolved
 
 This ensures every customer receives fair service.
@@ -383,7 +357,6 @@ Task 1
 ↓
 Task 2
 ↓
-
 Task 3
 ```
 
