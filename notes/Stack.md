@@ -25,18 +25,12 @@ Think about your daily activities.
 * You browse several web pages and press the Back button.
 * You type a document and press **Ctrl + Z** to undo your last action.
 
-In each of these situations, **the last item added is the first item removed**.
-
-This principle is called **LIFO (Last In, First Out)**.
-
-The **Stack** data structure follows this principle.
+In each of these situations, **the last item added is the first item removed**. This principle is called **LIFO (Last In, First Out)**. The **Stack** data structure follows this principle.
 
 
 # A Story from an Insurance Company
 
-Imagine you are developing software for **Transflower Insurance Services**.
-
-A customer service executive performs the following operations:
+Imagine you are developing software for **Transflower Insurance Services**. A customer service executive performs the following operations:
 
 ```text
 1. Updates Customer Address
@@ -49,68 +43,38 @@ Suddenly the customer says,
 
 > "I made a mistake. Please undo my last change."
 
-Which change should the system reverse?
-
-Not the first one.
-
-Not the second one.
-
-The **last** modification.
+Which change should the system reverse? Not the first one. Not the second one. The **last** modification.
 
 ```text
 Update Address
-
 ↓
-
 Update Nominee
-
 ↓
-
 Update Premium
-
 ↓
-
 Update Mobile Number
 ```
 
-The latest action is removed first.
-
-This is exactly how a **Stack** works.
+The latest action is removed first. This is exactly how a **Stack** works.
 
 
 # What is a Stack?
 
-A Stack is a linear data structure where insertion and deletion take place at **one end only**, called the **Top**.
-
-The last element inserted is the first element removed.
+A Stack is a linear data structure where insertion and deletion take place at **one end only**, called the **Top**. The last element inserted is the first element removed.
 
 ```text
 Top
-
 ↓
-
 Mobile Update
-
 ↓
-
 Premium Update
-
 ↓
-
 Nominee Update
-
 ↓
-
 Address Update
 ```
 
-This behavior is called
-
-**LIFO**
-
-**Last In First Out**
-
----
+This behavior is called **LIFO** **Last In First Out**
 
 # Stack Terminology
 
@@ -127,21 +91,14 @@ Unlike a Queue,
 * Insert from Top
 * Remove from Top
 
----
 
 # Stack Operations
 
 A Stack supports four basic operations.
 
----
-
 ## 1. Push
 
-Add a new element onto the stack.
-
-Business Example
-
-Customer updates
+Add a new element onto the stack.Business Example. Customer updates
 
 ```text
 Email Address
@@ -153,25 +110,16 @@ The update is placed on top.
 Top
 
 ↓
-
 Email Update
-
 ↓
-
 Mobile Update
-
 ↓
-
 Premium Update
 ```
 
----
-
 ## 2. Pop
 
-Remove the most recent element.
-
-Customer clicks
+Remove the most recent element. Customer clicks
 
 ```text
 Undo
@@ -183,17 +131,11 @@ The latest update disappears.
 Before
 
 Top
-
 ↓
-
 Email Update
-
 ↓
-
 Mobile Update
-
 ↓
-
 Premium Update
 ```
 
@@ -201,37 +143,24 @@ Premium Update
 After
 
 Top
-
 ↓
-
 Mobile Update
-
 ↓
-
 Premium Update
 ```
 
----
-
 ## 3. Peek
 
-View the latest element without removing it.
-
-Example
+View the latest element without removing it. Example
 
 ```text
 Latest Update
-
 ↓
-
 Email Address
 ```
 
-Useful when displaying
+Useful when displaying "Last Activity"
 
-"Last Activity"
-
----
 
 ## 4. IsEmpty
 
@@ -241,15 +170,9 @@ Checks whether the stack contains any elements.
 No Undo Operations Available
 ```
 
----
-
 # Why Not Use a Queue?
 
-Suppose a customer performs five updates.
-
-If they choose Undo,
-
-Should the system undo
+Suppose a customer performs five updates. If they choose Undo,Should the system undo
 
 ```text
 First Update?
@@ -265,11 +188,9 @@ Last Update.
 
 Therefore,
 
-Queues cannot implement Undo.
+Queues cannot implement Undo. Stacks are the correct choice.
 
-Stacks are the correct choice.
 
----
 
 # Stack in the Insurance Management System
 
@@ -292,25 +213,15 @@ Examples
 
 ```text
 Policy Created
-
 ↓
-
 Premium Updated
-
 ↓
-
 Address Changed
-
 ↓
-
 Claim Submitted
 ```
 
-Whenever Undo is requested,
-
-the latest operation is removed.
-
----
+Whenever Undo is requested,the latest operation is removed.
 
 # Business Scenario 1
 
@@ -320,27 +231,20 @@ Customer performs
 
 ```text
 Address Updated
-
 ↓
-
 Nominee Updated
-
 ↓
-
 Email Updated
 ```
 
 Undo
-
 ↓
-
 ```text
 Email Updated
 ```
 
 is reversed.
 
----
 
 # Business Scenario 2
 
@@ -350,24 +254,16 @@ Insurance employees visit
 
 ```text
 Dashboard
-
 ↓
-
 Customers
-
 ↓
-
 Policies
-
 ↓
-
 Claims
 ```
 
 Press Back
-
 ↓
-
 Return to
 
 ```text
@@ -376,7 +272,6 @@ Policies
 
 Every browser uses a stack.
 
----
 
 # Business Scenario 3
 
@@ -386,27 +281,16 @@ Suppose the application executes
 
 ```text
 Login()
-
 ↓
-
 LoadCustomer()
-
 ↓
-
 CalculatePremium()
-
 ↓
-
 SavePolicy()
 ```
 
-The runtime stores every function call on the stack.
+The runtime stores every function call on the stack. When execution completes,functions return in reverse order.
 
-When execution completes,
-
-functions return in reverse order.
-
----
 
 # Business Scenario 4
 
@@ -422,11 +306,7 @@ Premium Calculation
 RiskFactor
 ```
 
-The compiler evaluates complex expressions using stacks.
-
-Compilers, calculators, and interpreters rely heavily on stack operations.
-
----
+The compiler evaluates complex expressions using stacks. Compilers, calculators, and interpreters rely heavily on stack operations.
 
 # Business Scenario 5
 
@@ -441,21 +321,8 @@ if
 }
 ```
 
-Indentation levels are managed using stacks.
+Indentation levels are managed using stacks. Undo also uses stacks. Visual Studio, VS Code, Eclipse, IntelliJ all rely on stacks.
 
-Undo also uses stacks.
-
-Visual Studio
-
-VS Code
-
-Eclipse
-
-IntelliJ
-
-all rely on stacks.
-
----
 
 # Business Scenario 6
 
@@ -465,19 +332,13 @@ Insurance administrator performs
 
 ```text
 Generate Report
-
 ↓
-
 Backup Database
-
 ↓
-
 Send Email
 ```
 
 The latest task can be cancelled immediately using a stack.
-
----
 
 # Business Scenario 7
 
@@ -487,23 +348,14 @@ Customer performs
 
 ```text
 Premium Payment
-
 ↓
-
 Policy Update
-
 ↓
-
 Claim Registration
 ```
 
-Suppose the database fails.
+Suppose the database fails.The latest transaction is rolled back first. Stacks help maintain transaction consistency during rollback operations.
 
-The latest transaction is rolled back first.
-
-Stacks help maintain transaction consistency during rollback operations.
-
----
 
 # Enterprise Applications of Stack
 
@@ -512,16 +364,12 @@ Stacks are widely used in enterprise software.
 ## 1. Undo and Redo
 
 Document editors
-
 Drawing software
-
 Insurance forms
-
 Banking systems
-
 Medical record systems
 
----
+
 
 ## 2. Function Call Stack
 
@@ -533,43 +381,28 @@ Every programming language
 * Java
 * Python
 
-uses a runtime stack.
+uses a runtime stack.Without it,programs cannot execute nested function calls.
 
-Without it,
-
-programs cannot execute nested function calls.
-
----
 
 ## 3. Browser Navigation
 
 ```text
 Home
-
 ↓
-
 Products
-
 ↓
-
 Policies
-
 ↓
-
 Claim Status
 ```
 
 Back button
-
 ↓
-
 Returns to
 
 ```text
 Policies
 ```
-
----
 
 ## 4. Expression Evaluation
 
@@ -581,19 +414,10 @@ A + B * C
 
 using stacks.
 
----
 
 ## 5. Syntax Parsing
 
-Programming languages
-
-XML
-
-JSON
-
-HTML
-
-use stacks to verify
+Programming languages XML, JSON, HTML use stacks to verify
 
 ```text
 ()
@@ -605,13 +429,10 @@ use stacks to verify
 []
 ```
 
----
-
 ## 6. Database Transactions
 
 Enterprise databases maintain transaction rollback history using stack-like behavior.
-
----
+ 
 
 ## 7. Memory Management
 
@@ -621,7 +442,7 @@ Operating systems allocate stack memory for
 * Function Parameters
 * Return Addresses
 
----
+  
 
 # Stack vs Queue
 
@@ -635,7 +456,7 @@ Operating systems allocate stack memory for
 | Function Calls        | Task Scheduling   |
 | Expression Evaluation | Ticket Processing |
 
----
+ 
 
 # Learning Outcome
 
@@ -654,8 +475,6 @@ Most importantly, students will realize that every time they click **Undo**, pre
 
 # Action History Module using Stack
 
----
-
 # Business Problem
 
 Imagine you are working as a Software Engineer at **Transflower Insurance Services**.
@@ -670,29 +489,12 @@ Every day, customer service executives perform hundreds of operations such as:
 * Approving Policy
 * Cancelling Policy
 
-Sometimes the executive makes a mistake.
-
-For example,
-
-Rahul's premium was accidentally updated from **₹8,500** to **₹85,000**.
-
-The manager immediately says,
-
+Sometimes the executive makes a mistake. For example, Rahul's premium was accidentally updated from **₹8,500** to **₹85,000**. The manager immediately says, 
 > "Undo the last operation."
 
-How can the software remember what was done last?
+How can the software remember what was done last? This is where the **Stack Data Structure** becomes useful. Instead of deleting records manually, every business operation is first recorded in an **Action History Stack**. Whenever Undo is requested, the latest action is removed first. This follows the **LIFO (Last In First Out)** principle.
 
-This is where the **Stack Data Structure** becomes useful.
-
-Instead of deleting records manually, every business operation is first recorded in an **Action History Stack**.
-
-Whenever Undo is requested,
-
-the latest action is removed first.
-
-This follows the **LIFO (Last In First Out)** principle.
-
----
+  
 
 # Existing Insurance Management System
 
@@ -707,8 +509,7 @@ Insurance Management System
 │
 └── Action History Stack     (NEW)
 ```
-
----
+ 
 
 # Understanding Action History
 
@@ -732,7 +533,6 @@ Create Health Policy
 
 ```text
 09:10 AM
-
 Update Premium
 ```
 
@@ -740,7 +540,6 @@ Update Premium
 
 ```text
 09:15 AM
-
 Submit Claim
 ```
 
@@ -763,7 +562,7 @@ Each operation is stored in the stack.
 
 Notice that the **latest operation is always on the Top.**
 
----
+
 
 # Step 1: Design Business Operation
 
@@ -779,15 +578,11 @@ Example
 
 ```text
 Operation Id : 1004
-
 Customer : Rahul
-
 Operation : Premium Updated
-
 Time : 10:15 AM
 ```
 
----
 
 # Step 2: Create ActionHistory Class
 
@@ -810,17 +605,13 @@ public class ActionHistory
 
 Each object represents one business operation.
 
----
 
 # Step 3: Create ActionHistoryStack Service
 
 ```text
 Insurance Management System
-
         │
-
         ▼
-
 Action History Stack
 ```
 
@@ -832,14 +623,11 @@ This service is responsible for
 * Display
 * IsEmpty
 
----
-
 # Step 4: Push()
 
 ## Business Scenario
 
-Customer Rahul purchases a policy.
-
+Customer Rahul purchases a policy. 
 Operation
 
 ```text
@@ -866,13 +654,9 @@ Push again.
 
 ```text
 TOP
-
 ↓
-
 Update Premium
-
 ↓
-
 Create Policy
 ```
 
@@ -887,7 +671,6 @@ public void Push(ActionHistory action)
 }
 ```
 
----
 
 # Step 5: Pop()
 
@@ -907,13 +690,9 @@ is removed.
 Before
 
 TOP
-
 ↓
-
 Update Premium
-
 ↓
-
 Create Policy
 ```
 
@@ -921,9 +700,7 @@ Create Policy
 After
 
 TOP
-
 ↓
-
 Create Policy
 ```
 
@@ -939,19 +716,14 @@ public ActionHistory Pop()
 }
 ```
 
----
 
 # Step 6: Peek()
 
-Before undo,
-
-the manager asks
+Before undo, the manager asks
 
 > "What was the last action?"
 
-Without removing it,
-
-return
+Without removing it, return
 
 ```text
 Update Premium
@@ -969,7 +741,6 @@ public ActionHistory Peek()
 }
 ```
 
----
 
 # Step 7: Display()
 
@@ -977,21 +748,13 @@ Display complete history.
 
 ```text
 Latest Action
-
 ↓
-
 Claim Submitted
-
 ↓
-
 Premium Updated
-
 ↓
-
 Policy Created
-
 ↓
-
 Customer Created
 ```
 
@@ -1010,7 +773,6 @@ public void Display()
 }
 ```
 
----
 
 # Step 8: IsEmpty()
 
@@ -1036,8 +798,6 @@ public bool IsEmpty()
     return history.Count==0;
 }
 ```
-
----
 
 # Step 9: Complete ActionHistoryStack Service
 
@@ -1089,8 +849,6 @@ public class ActionHistoryStack
     }
 }
 ```
-
----
 
 # Step 10: Testing the Stack
 
@@ -1146,8 +904,6 @@ Console.WriteLine("Remaining History");
 actionStack.Display();
 ```
 
----
-
 # Sample Output
 
 ```text
@@ -1171,8 +927,6 @@ Remaining History
 1001 Rahul Customer Created
 ```
 
----
-
 # Enterprise Software Mapping
 
 | Insurance Operation        | Stack Operation |
@@ -1185,7 +939,6 @@ Remaining History
 | View Complete History      | Display         |
 | Check if Undo is Available | IsEmpty         |
 
----
 
 # Learning Outcome
 
