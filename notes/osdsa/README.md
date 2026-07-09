@@ -144,11 +144,11 @@ into a Software Engineer,
 a Software Architect,
 and eventually an AI Solutions Architect."
 ```
-````
 
 
 
-Welcome to Transflower Leraning. Many students ask,
+
+### Welcome to Transflower Leraning. Many students ask,
 
 > **"Why should I learn Data Structures and Algorithms?"**
 
