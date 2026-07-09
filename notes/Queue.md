@@ -49,26 +49,10 @@ The company cannot randomly choose whom to serve first.
 It must follow a fair process.
 
 ```
-Rahul
-
-↓
-
-Priya
-
-↓
-
-Amit
-
-↓
-
-Sneha
+Rahul -> Priya -> Amit -> Sneha
 ```
 
-Rahul arrived first.
-
-Rahul must be served first.
-
-This is exactly how a Queue works.
+Rahul arrived first. Rahul must be served first. This is exactly how a Queue works.
 
 # What is a Queue?
 
@@ -78,7 +62,7 @@ A Queue is a linear data structure that stores elements in the order they arrive
 First In
       ↓
 +-------------------------------+
-| Rahul | Priya | Amit | Sneha |
+| Rahul | Priya | Amit | Sneha  |
 +-------------------------------+
       ↑
 First Out
@@ -125,23 +109,7 @@ Insert a new element.
 Example A new customer purchases insurance.
 
 ```
-Rahul
-
-↓
-
-Priya
-
-↓
-
-Amit
-
-↓
-
-Sneha
-
-↓
-
-Vikram
+Rahul -> Priya -> Amit -> Sneha -> Vikram
 ```
 
 Vikram is added at the **Rear**.
@@ -154,25 +122,13 @@ Remove the first element. Rahul's work is completed. He leaves.
 ```
 Before
 
-Rahul
-
-↓
-
-Priya
-
-↓
-
-Amit
+Rahul -> Priya -> Amit
 ```
 
 After
 
 ```
-Priya
-
-↓
-
-Amit
+Priya -> Amit
 ```
 
 Only the customer at the **Front** can leave.
@@ -196,13 +152,7 @@ Useful for display.
 Checks whether there are any customers waiting.
 
 ```
-Queue Empty ?
-
-Yes
-
-or
-
-No
+Queue Empty ? Yes or No
 ```
 
 
