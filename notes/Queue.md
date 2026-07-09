@@ -212,11 +212,8 @@ Suppose 10,000 customers visit every day. Every time the first customer leaves, 
 
 ```
 Rahul leaves.
-
 Priya shifts.
-
 Amit shifts.
-
 Sneha shifts.
 ```
 
@@ -249,21 +246,13 @@ Should these requests be processed randomly? No. They should follow FIFO.
 ## Policy Approval Queue
 
 ```
-Rahul
-↓
-Priya
-↓
-Amit
+Rahul -> Priya ->Amit
 ```
 
 Approval Officer processes
 
 ```
-Rahul
-↓
-Priya
-↓
-Amit
+Rahul -> Priya -> Amit
 ```
 
 in the same order.
@@ -276,11 +265,7 @@ in the same order.
 Customers submit insurance claims.
 
 ```
-Claim 101
-↓
-Claim 102
-↓
-Claim 103
+Claim 101 -> Claim 102 -> Claim 103
 ```
 
 Claims are processed one after another. No customer is skipped unfairly.
@@ -293,11 +278,7 @@ Claims are processed one after another. No customer is skipped unfairly.
 Every payment received online enters the queue.
 
 ```
-Payment 1
-↓
-Payment 2
-↓
-Payment 3
+Payment 1 -> Payment 2 -> Payment 3
 ```
 
 The accounting service verifies them sequentially.
@@ -316,30 +297,14 @@ Customers upload
 Verification requests are queued.
 
 ```
-Verification 101
-
-↓
-
-Verification 102
-
-↓
-
-Verification 103
+Verification 101 -> Verification 102 -> Verification 103
 ```
 
 # Business Scenario 5
 
 ## Customer Support Queue
 
-Customer calls
-↓
-Support Request Created
-↓
-Added to Queue
-↓
-Assigned to Support Executive
-↓
-Resolved
+Customer calls->Support Request Created->Added to Queue->Assigned to Support Executive->Resolved
 
 This ensures every customer receives fair service.
 
@@ -353,11 +318,7 @@ Queue is one of the most widely used data structures in enterprise software.
 Modern systems execute thousands of tasks every minute.
 
 ```
-Task 1
-↓
-Task 2
-↓
-Task 3
+Task 1 -> Task 2 -> Task 3
 ```
 
 Operating systems and enterprise schedulers process tasks in order or by configured priority.
@@ -368,11 +329,7 @@ Operating systems and enterprise schedulers process tasks in order or by configu
 Large applications rarely communicate directly. Instead,
 
 ```
-Application A
-↓
-Message Queue
-↓
-Application B
+Application A -> Message Queue -> Application B
 ```
 
 The sender continues working while the receiver processes messages later. Examples include order processing, notifications, and payment workflows.
@@ -383,15 +340,7 @@ The sender continues working while the receiver processes messages later. Exampl
 Users should not wait for slow operations. Instead,
 
 ```
-User Clicks Submit
-↓
-Background Queue
-↓
-Email Sent
-↓
-PDF Generated
-↓
-SMS Delivered
+User Clicks Submit -> Background Queue -> Email Sent -> PDF Generated->SMS Delivered
 ```
 
 The application remains responsive while work is completed in the background.
@@ -402,11 +351,7 @@ The application remains responsive while work is completed in the background.
 Many users print simultaneously.
 
 ```
-User 1
-↓
-User 2
-↓
-User 3
+User 1 -> User 2 -> User 3
 ```
 
 The printer processes documents one at a time.
@@ -417,11 +362,7 @@ The printer processes documents one at a time.
 Every support request becomes a ticket.
 
 ```
-Ticket 101
-↓
-Ticket 102
-↓
-Ticket 103
+Ticket 101 -> Ticket 102 ->  Ticket 103
 ```
 
 Support agents always know which request should be handled next.
@@ -431,13 +372,7 @@ Support agents always know which request should be handled next.
 Banks and insurance companies process millions of records overnight.
 
 ```
-Customer 1
-↓
-Customer 2
-↓
-Customer 3
-↓
-Customer 4
+Customer 1 -> Customer 2 -> Customer 3 -> Customer 4
 ```
 
 Jobs are processed sequentially or distributed across multiple workers.
@@ -448,13 +383,7 @@ Jobs are processed sequentially or distributed across multiple workers.
 Thousands of users visit a website simultaneously.
 
 ```
-Browser Request
-↓
-Server Queue
-↓
-Worker Thread
-↓
-Response
+Browser Request -> Server Queue -> Worker Thread -> Response
 ```
 
 Without request queues, servers would quickly become overloaded.
@@ -464,11 +393,7 @@ Without request queues, servers would quickly become overloaded.
 Customer orders arrive continuously.
 
 ```
-Order 101
-↓
-Order 102
-↓
-Order 103
+Order 101 -> Order 102 -> Order 103
 ```
 
 The warehouse fulfills orders in the sequence they were received unless business rules specify otherwise.
@@ -499,13 +424,11 @@ After completing this chapter, students will be able to:
 Most importantly, students will realize that a Queue is far more than an academic data structure—it is a fundamental architectural component used in modern enterprise applications to ensure fairness, scalability, reliability, and efficient processing of millions of business requests every day.
 
 
-
 ## Queue-Based Customer Service Module
 
 ### Extending the Insurance Management System
 
 Now that we understand the Queue data structure, let's implement it in our existing **Insurance Management System**.
-
 
 # Business Problem
 
@@ -585,16 +508,7 @@ This class represents one customer waiting in the queue.
 # Step 3: Create CustomerServiceQueue
 
 ```
-Front
-↓
-Rahul
-↓
-Priya
-↓
-Amit
-↓
-NULL
-Rear
+Front -> Rahul -> Priya -> Amit -> NULL->Rear
 ```
 
 The queue stores customer requests.
@@ -615,13 +529,7 @@ Policy Purchase
 The request is added to the **Rear**.
 
 ```
-Rahul
-↓
-Priya
-↓
-Amit
-↓
-Vikram
+Rahul -> Priya -> Amit -> Vikram
 ```
 
 ### C# Method
@@ -650,19 +558,13 @@ Rahul's request is processed. He leaves the queue.
 ```
 Before
 
-Rahul
-↓
-Priya
-↓
-Amit
+Rahul -> Priya -> Amit
 ```
 
 ```
 After
 
-Priya
-↓
-Amit
+Priya  -> Amit
 ```
 
 ### C# Method
@@ -714,11 +616,8 @@ Current Waiting Customers
 
 ```
 101 Rahul
-
 102 Priya
-
 103 Amit
-
 104 Sneha
 ```
 

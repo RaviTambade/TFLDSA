@@ -282,23 +282,18 @@ But since the user is asking about how to think of the logic, the key points are
 So, to summarize the steps for enqueue:
 
 1. Check if the queue is full.
-
 - If using front and rear without size: (rear +1) % capacity == front.
 
 - If using size: size == capacity.
 
 2. If full, handle error (e.g., print message, return, etc.)
-
 3. If the queue is empty (size 0 or front == -1):
-
 - Set front and rear to 0 (if using front/rear).
 
 4. Else:
-
 - Increment rear (or calculate insertion index) using modulo to wrap around.
 
 5. Insert the new element at the rear position (or calculated index).
-
 6. If using size, increment size.
 
 Potential issues to consider:
@@ -402,11 +397,8 @@ This approach might be more efficient in terms of space usage.
 But the user is asking how to think about the logic. So, the key points are:
 
 1. Determine if the queue is full. If yes, handle overflow.
-
 2. If the queue is empty, set front and rear appropriately (or just insert at the first position).
-
 3. Otherwise, calculate the next rear position using modulo to wrap around.
-
 4. Insert the element at the rear position.
 
 The exact details depend on whether a size variable is used or not, and how the indices are managed.
@@ -418,17 +410,13 @@ So, the logic for enqueue revolves around checking the full condition, handling 
 Potential mistakes to avoid:
 
 - Forgetting to use modulo operation when incrementing rear or calculating the insertion position, leading to array index out of bounds.
-
 - Incorrectly checking the full condition (e.g., using rear == capacity -1 instead of modulo).
-
 - Not handling the empty queue case properly, which could leave front and rear in an inconsistent state.
 
 Testing edge cases:
 
 - Enqueueing to a full queue.
-
 - Enqueueing to an empty queue.
-
 - Enqueueing when rear is at the end of the array (needs to wrap around to 0).
 
 For example, if capacity is 5, and rear is 4, next enqueue should go to 0 if front is not 0.
@@ -442,13 +430,9 @@ But if the size approach is used, then when size is 5, queue is full. So with ca
 So, the choice between the two approaches affects the maximum capacity.
 
 In summary, the logic involves:
-
 - Checking for full queue.
-
 - Handling the wrap-around with modulo.
-
 - Updating the rear/index correctly.
-
 - Inserting the new element.
 
 To implement the enqueue operation using an array in C, follow these steps, considering a circular queue approach to efficiently manage space:
