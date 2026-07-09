@@ -13,6 +13,7 @@ That’s exactly where DSA helps us —
 it teaches us how to **organize data efficiently** (like arranging flowers in rows)
 and how to **design smart steps** to solve problems (like planning the watering schedule).
 
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/core.md">0.Core Understanding</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.Roadmap.md">1.DSA Roadmap</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.roadmaptfldsa180.md">2.DSA Everyday</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/0.Introduction.md">3.Let us get started</a><br>
