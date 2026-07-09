@@ -1,6 +1,6 @@
- # Before You Learn DSA, Understand How Software Really Works
+# Before You Learn DSA, Understand How Software Really Works
 
-# Software Execution Flow: From Source Code to Efficient Software
+## Software Execution Flow: From Source Code to Efficient Software
 
 ```text
                               SOFTWARE EXECUTION PIPELINE
@@ -145,16 +145,13 @@ a Software Architect,
 and eventually an AI Solutions Architect."
 ```
 
-
-
-
 ### Welcome to Transflower Leraning. Many students ask,
 
 > **"Why should I learn Data Structures and Algorithms?"**
 
 Before answering that, let us first understand what actually happens when you run a program.
 
-## Step 1: You Write Source Code
+#### Step 1: You Write Source Code
 
 As a developer, you write code in C, C++, C#, Java, Python, or any other programming language.
 
@@ -162,7 +159,7 @@ This source code is only a set of instructions written for humans.
 
 The computer cannot execute it directly.
 
-## Step 2: Compiler or Interpreter Converts Your Code
+#### Step 2: Compiler or Interpreter Converts Your Code
 
 Depending on the language:
 
@@ -174,7 +171,7 @@ Depending on the language:
 Finally, the CPU executes machine instructions.
 
 
-## Step 3: Operating System Takes Control
+#### Step 3: Operating System Takes Control
 
 The moment you double-click an application or execute it from the command line, the Operating System becomes active.
 
@@ -192,7 +189,7 @@ The OS:
 Without the Operating System, your application cannot run.
 
 
-## Step 4: Memory Is Organized
+#### Step 4: Memory Is Organized
 
 The Operating System organizes memory into different regions.
 
@@ -206,7 +203,7 @@ Every function call pushes a new stack frame.
 Every object created using `new` or `malloc` occupies heap memory.
 
 
-## Step 5: CPU Executes Instructions
+#### Step 5: CPU Executes Instructions
 
 The CPU repeatedly performs the Fetch → Decode → Execute cycle.
 
@@ -215,13 +212,11 @@ Millions or even billions of instructions execute every second.
 Every comparison, assignment, loop, function call, and calculation consumes CPU time.
 
 
-# Now Comes the Most Important Question...
+### Now Comes the Most Important Question...
 
 Imagine two developers solve the same problem. Developer A writes a simple but inefficient algorithm. Developer B writes an optimized algorithm using the right data structure. Both programs produce the same output. But are they equally good? No. One program may finish in 1 second. The other may take several minutes. On millions of records, the difference becomes enormous.
 
- 
-
-# This Is Why Data Structures Matter
+### This Is Why Data Structures Matter
 
 A Data Structure is a way of organizing data in memory so that operations become efficient.
 
@@ -244,7 +239,7 @@ Choosing the right structure directly affects:
 * Scalability
 
 
-# Algorithms Decide How Efficiently Work Is Done
+###Algorithms Decide How Efficiently Work Is Done
 
 An algorithm is a sequence of steps to solve a problem. Different algorithms solving the same problem can have completely different performance.
 
@@ -263,7 +258,7 @@ Sorting
 The better the algorithm, the fewer CPU instructions are executed.
 
 
-# Why Companies Ask DSA in Interviews
+### Why Companies Ask DSA in Interviews
 
 Companies are not checking whether you have memorized code. They want to know whether you can:
 
@@ -276,7 +271,7 @@ Companies are not checking whether you have memorized code. They want to know wh
 A software engineer is expected to build solutions that are both correct and efficient.
 
 
-# The Transflower Philosophy
+### The Transflower Philosophy
 
 At Transflower, we do not teach Data Structures only to clear interviews. We teach DSA because it changes the way you think. You begin to understand:
 
@@ -286,17 +281,15 @@ At Transflower, we do not teach Data Structures only to clear interviews. We tea
 * how the CPU performs work,
 * and how choosing the right data structure and algorithm makes software faster, more scalable, and more reliable.
 
+### Let us start learning the core.
 
-
-Let us start learning the core.
-
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/1.md" > Under the surface of Exeuction: Software</a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/2.md" >  How the CPU Executes Your Program</a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/3.md" >From Memory Pages to CPU Registers </a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/4.md" >  Operating System – The Manager of the Computer</a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/5.md" >How the Operating System Manages Millions of Memory Pages </a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/6.md" >Application Software vs System Software </a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/7.md" > Why Every Software Engineer Must Learn Data Structures & Algorithms </a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/8.md" >Why Linked Lists, Arrays, and Operating Systems Matter </a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/9.md" >Data Structures Are the Steel and Bricks of Software </a>
-- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/10.md" >Frameworks Don't Build Careers. Thinking Does. </a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/1.md" >1.Under the surface of Exeuction: Software</a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/2.md" >2.How the CPU Executes Your Program</a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/3.md" >3.From Memory Pages to CPU Registers </a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/4.md" >4.Operating System – The Manager of the Computer</a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/5.md" >5.How the Operating System Manages Millions of Memory Pages </a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/6.md" >6.Application Software vs System Software </a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/7.md" >7.Why Every Software Engineer Must Learn Data Structures & Algorithms </a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/8.md" >8.Why Linked Lists, Arrays, and Operating Systems Matter </a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/9.md" >9.Data Structures Are the Steel and Bricks of Software </a>
+- <a href= "https://github.com/RaviTambade/TFLDSA/blob/main/notes/osdsa/10.md" >10.Frameworks Don't Build Careers. Thinking Does. </a>
