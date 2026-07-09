@@ -1,12 +1,7 @@
-Here's a **Transflower Mentor Style** set of notes that connects the **Queue Data Structure** with **real-world software engineering** and your ongoing **Insurance Management System** project.
-
 # Queue Data Structure
-
 ## Building Enterprise Software One Customer Request at a Time
 
 > **"A queue is not just a data structure; it is a model of how businesses serve customers fairly, process requests efficiently, and build scalable software systems."**
-
----
 
 # Introduction
 
@@ -26,7 +21,6 @@ This simple principle is known as **FIFO (First In, First Out)**.
 
 The **Queue** data structure follows exactly the same principle.
 
----
 
 # A Story from an Insurance Company
 
@@ -82,8 +76,6 @@ Rahul must be served first.
 
 This is exactly how a Queue works.
 
----
-
 # What is a Queue?
 
 A Queue is a linear data structure that stores elements in the order they arrive.
@@ -105,8 +97,6 @@ This is called
 **FIFO**
 
 **First In First Out**
-
----
 
 # Queue Terminology
 
@@ -135,8 +125,6 @@ Rahul → Priya → Amit → Sneha
 
                       Rear
 ```
-
----
 
 # Queue Operations
 
@@ -172,7 +160,6 @@ Vikram
 
 Vikram is added at the **Rear**.
 
----
 
 ## 2. Dequeue
 
@@ -208,7 +195,6 @@ Amit
 
 Only the customer at the **Front** can leave.
 
----
 
 ## 3. Peek (Front)
 
@@ -222,7 +208,6 @@ Rahul
 
 Useful for display.
 
----
 
 ## 4. IsEmpty
 
@@ -238,15 +223,10 @@ or
 No
 ```
 
----
 
 # Why Not Use an Array?
 
-Suppose 10,000 customers visit every day.
-
-Every time the first customer leaves,
-
-all remaining customers must be shifted.
+Suppose 10,000 customers visit every day. Every time the first customer leaves, all remaining customers must be shifted.
 
 ```
 Rahul leaves.
@@ -258,11 +238,8 @@ Amit shifts.
 Sneha shifts.
 ```
 
-This wastes processing time.
+This wastes processing time. Queues solve this problem efficiently.
 
-Queues solve this problem efficiently.
-
----
 
 # Queue in the Insurance Management System
 
@@ -272,33 +249,18 @@ Our Insurance Application already stores
 * Policies
 * Premiums
 
-Now imagine another module.
-
-Customer Service Desk.
-
-Every customer submits a request.
+Now imagine another module. Customer Service Desk. Every customer submits a request.
 
 ```
 New Policy
-
 Policy Renewal
-
 Claim Request
-
 Premium Payment
-
 Address Update
-
 Document Verification
 ```
 
-Should these requests be processed randomly?
-
-No.
-
-They should follow FIFO.
-
----
+Should these requests be processed randomly? No. They should follow FIFO.
 
 # Business Scenario 1
 
@@ -306,13 +268,9 @@ They should follow FIFO.
 
 ```
 Rahul
-
 ↓
-
 Priya
-
 ↓
-
 Amit
 ```
 
@@ -320,19 +278,14 @@ Approval Officer processes
 
 ```
 Rahul
-
 ↓
-
 Priya
-
 ↓
-
 Amit
 ```
 
 in the same order.
 
----
 
 # Business Scenario 2
 
@@ -342,21 +295,14 @@ Customers submit insurance claims.
 
 ```
 Claim 101
-
 ↓
-
 Claim 102
-
 ↓
-
 Claim 103
 ```
 
-Claims are processed one after another.
+Claims are processed one after another. No customer is skipped unfairly.
 
-No customer is skipped unfairly.
-
----
 
 # Business Scenario 3
 
@@ -366,19 +312,13 @@ Every payment received online enters the queue.
 
 ```
 Payment 1
-
 ↓
-
 Payment 2
-
 ↓
-
 Payment 3
 ```
 
 The accounting service verifies them sequentially.
-
----
 
 # Business Scenario 4
 
@@ -405,8 +345,6 @@ Verification 102
 Verification 103
 ```
 
----
-
 # Business Scenario 5
 
 ## Customer Support Queue
@@ -431,7 +369,6 @@ Resolved
 
 This ensures every customer receives fair service.
 
----
 
 # Enterprise Applications of Queue
 
@@ -443,11 +380,8 @@ Modern systems execute thousands of tasks every minute.
 
 ```
 Task 1
-
 ↓
-
 Task 2
-
 ↓
 
 Task 3
@@ -455,61 +389,40 @@ Task 3
 
 Operating systems and enterprise schedulers process tasks in order or by configured priority.
 
----
 
 ## 2. Message Queue
 
-Large applications rarely communicate directly.
-
-Instead,
+Large applications rarely communicate directly. Instead,
 
 ```
 Application A
-
 ↓
-
 Message Queue
-
 ↓
-
 Application B
 ```
 
-The sender continues working while the receiver processes messages later.
+The sender continues working while the receiver processes messages later. Examples include order processing, notifications, and payment workflows.
 
-Examples include order processing, notifications, and payment workflows.
-
----
 
 ## 3. Background Job Processing
 
-Users should not wait for slow operations.
-
-Instead,
+Users should not wait for slow operations. Instead,
 
 ```
 User Clicks Submit
-
 ↓
-
 Background Queue
-
 ↓
-
 Email Sent
-
 ↓
-
 PDF Generated
-
 ↓
-
 SMS Delivered
 ```
 
 The application remains responsive while work is completed in the background.
 
----
 
 ## 4. Print Queue
 
@@ -517,19 +430,14 @@ Many users print simultaneously.
 
 ```
 User 1
-
 ↓
-
 User 2
-
 ↓
-
 User 3
 ```
 
 The printer processes documents one at a time.
 
----
 
 ## 5. Customer Support Ticket System
 
@@ -537,19 +445,13 @@ Every support request becomes a ticket.
 
 ```
 Ticket 101
-
 ↓
-
 Ticket 102
-
 ↓
-
 Ticket 103
 ```
 
 Support agents always know which request should be handled next.
-
----
 
 ## 6. Batch Processing
 
@@ -557,23 +459,16 @@ Banks and insurance companies process millions of records overnight.
 
 ```
 Customer 1
-
 ↓
-
 Customer 2
-
 ↓
-
 Customer 3
-
 ↓
-
 Customer 4
 ```
 
 Jobs are processed sequentially or distributed across multiple workers.
 
----
 
 ## 7. Web Server Request Queue
 
@@ -581,23 +476,15 @@ Thousands of users visit a website simultaneously.
 
 ```
 Browser Request
-
 ↓
-
 Server Queue
-
 ↓
-
 Worker Thread
-
 ↓
-
 Response
 ```
 
 Without request queues, servers would quickly become overloaded.
-
----
 
 ## 8. Inventory Management
 
@@ -605,19 +492,14 @@ Customer orders arrive continuously.
 
 ```
 Order 101
-
 ↓
-
 Order 102
-
 ↓
-
 Order 103
 ```
 
 The warehouse fulfills orders in the sequence they were received unless business rules specify otherwise.
 
----
 
 # Queue vs Stack
 
@@ -630,7 +512,6 @@ The warehouse fulfills orders in the sequence they were received unless business
 | Function Calls                  | Task Scheduling                   |
 | Expression Evaluation           | Print Queue                       |
 
----
 
 # Learning Outcome
 
@@ -644,7 +525,6 @@ After completing this chapter, students will be able to:
 
 Most importantly, students will realize that a Queue is far more than an academic data structure—it is a fundamental architectural component used in modern enterprise applications to ensure fairness, scalability, reliability, and efficient processing of millions of business requests every day.
 
-These notes naturally prepare students for the next implementation phase: building a **Queue-based Customer Service Module** within the same Insurance Management application, where they will implement `Enqueue`, `Dequeue`, `Peek`, `Display`, and `IsEmpty` operations in C or C#.
 
 
 ## Queue-Based Customer Service Module
@@ -653,15 +533,10 @@ These notes naturally prepare students for the next implementation phase: buildi
 
 Now that we understand the Queue data structure, let's implement it in our existing **Insurance Management System**.
 
----
 
 # Business Problem
 
-Imagine you are working as a software engineer in an insurance company.
-
-Every day hundreds of customers visit the customer service department.
-
-Customers request services such as:
+Imagine you are working as a software engineer in an insurance company. Every day hundreds of customers visit the customer service department. Customers request services such as:
 
 * Purchase New Policy
 * Renew Existing Policy
@@ -679,11 +554,8 @@ Token 103
 Token 104
 ```
 
-Customers must be served in the same order in which they arrive.
+Customers must be served in the same order in which they arrive. This is a perfect use case for a **Queue**.
 
-This is a perfect use case for a **Queue**.
-
----
 
 # Existing Insurance System
 
@@ -701,8 +573,6 @@ Insurance Management System
 
 Instead of storing customer requests randomly, we introduce a **Customer Service Queue**.
 
----
-
 # Step 1: Design Customer Service Request
 
 Each customer request contains
@@ -719,15 +589,10 @@ Example
 
 ```
 Token : 101
-
 Customer : Rahul
-
 Service : Policy Renewal
-
 Time : 10:30 AM
 ```
-
----
 
 # Step 2: Create CustomerServiceRequest Class
 
@@ -744,35 +609,23 @@ public class CustomerServiceRequest
 
 This class represents one customer waiting in the queue.
 
----
-
 # Step 3: Create CustomerServiceQueue
 
 ```
 Front
-
 ↓
-
 Rahul
-
 ↓
-
 Priya
-
 ↓
-
 Amit
-
 ↓
-
 NULL
-
 Rear
 ```
 
 The queue stores customer requests.
 
----
 
 # Step 4: Implement Enqueue()
 
@@ -782,9 +635,7 @@ A new customer enters the insurance office.
 
 ```
 Vikram
-
 ↓
-
 Policy Purchase
 ```
 
@@ -792,17 +643,11 @@ The request is added to the **Rear**.
 
 ```
 Rahul
-
 ↓
-
 Priya
-
 ↓
-
 Amit
-
 ↓
-
 Vikram
 ```
 
@@ -817,8 +662,6 @@ public void Enqueue(CustomerServiceRequest request)
 }
 ```
 
----
-
 # Step 5: Implement Dequeue()
 
 ### Business Scenario
@@ -829,21 +672,15 @@ The customer service executive calls
 Token 101
 ```
 
-Rahul's request is processed.
-
-He leaves the queue.
+Rahul's request is processed. He leaves the queue.
 
 ```
 Before
 
 Rahul
-
 ↓
-
 Priya
-
 ↓
-
 Amit
 ```
 
@@ -851,9 +688,7 @@ Amit
 After
 
 Priya
-
 ↓
-
 Amit
 ```
 
@@ -871,7 +706,6 @@ public CustomerServiceRequest Dequeue()
 }
 ```
 
----
 
 # Step 6: Implement Peek()
 
@@ -879,9 +713,7 @@ Suppose the executive wants to know
 
 > "Who is the next customer?"
 
-Without removing anyone,
-
-Peek returns
+Without removing anyone,Peek returns
 
 ```
 Rahul
@@ -898,8 +730,6 @@ public CustomerServiceRequest Peek()
     return queue.Peek();
 }
 ```
-
----
 
 # Step 7: Display Queue
 
@@ -935,8 +765,6 @@ public void Display()
 }
 ```
 
----
-
 # Step 8: IsEmpty()
 
 At the end of the day
@@ -961,8 +789,6 @@ public bool IsEmpty()
     return queue.Count==0;
 }
 ```
-
----
 
 # Step 9: Complete Queue Service
 
@@ -1013,8 +839,6 @@ public class CustomerServiceQueue
     }
 }
 ```
-
----
 
 # Step 10: Testing the Queue
 
@@ -1079,8 +903,6 @@ Console.WriteLine("Remaining Queue");
 serviceQueue.Display();
 ```
 
----
-
 # Sample Output
 
 ```
@@ -1104,8 +926,6 @@ Remaining Queue
 103 Amit Policy Renewal
 ```
 
----
-
 # Real Enterprise Mapping
 
 | Insurance Department               | Queue Operation |
@@ -1116,7 +936,6 @@ Remaining Queue
 | Display waiting list               | Display         |
 | Office closing check               | IsEmpty         |
 
----
 
 # Learning Outcome
 
