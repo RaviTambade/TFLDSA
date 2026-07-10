@@ -2,6 +2,53 @@
 Welcome to the **Transflower Learning Experience**,
 where every line of code grows like a seed — nurtured by curiosity, watered by logic, and blossoming into structured thought. 🌸
 
+
+### Transflower recommends DSA Roadmap
+
+This progression takes students from foundational DSA concepts to the data structures that power enterprise databases, operating systems, and large-scale ASP.NET applications.
+
+
+```
+Arrays
+        │
+        ▼
+Linked Lists
+        │
+        ▼
+Stacks
+        │
+        ▼
+Queues
+        │
+        ▼
+Binary Trees
+        │
+        ▼
+Binary Search Trees (BST)
+        │
+        ▼
+Why BST Becomes Slow
+        │
+        ▼
+AVL Trees (Self-Balancing)
+        │
+        ▼
+Heaps (Priority Queues)
+        │
+        ▼
+Hash Tables
+        │
+        ▼
+Graphs
+        │
+        ▼
+B-Trees & B+ Trees
+        │
+        ▼
+How SQL Server, MySQL & Operating Systems Use Them
+```
+
+
 ## 🧠 Why DSA?
 
 Before we jump into code, let’s understand *why* we need Data Structures and Algorithms (DSA).

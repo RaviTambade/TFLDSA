@@ -373,15 +373,7 @@ Medical record systems
 
 ## 2. Function Call Stack
 
-Every programming language
-
-* C
-* C++
-* C#
-* Java
-* Python
-
-uses a runtime stack.Without it,programs cannot execute nested function calls.
+Every programming language  C, C++, C#, Java, Python, Javascript, Typescript, etc. uses a runtime stack.Without it,programs cannot execute nested function calls.
 
 
 ## 3. Browser Navigation
@@ -458,24 +450,11 @@ Operating systems allocate stack memory for
 
  
 
-# Learning Outcome
+## Extending the Insurance Management System
 
-After completing this chapter, students will be able to:
+## Action History Module using Stack
 
-* Understand the **LIFO (Last In, First Out)** principle.
-* Implement stack operations such as **Push**, **Pop**, **Peek**, and **IsEmpty**.
-* Design an **Action History Stack** for the Insurance Management System.
-* Explain why stacks are ideal for undo functionality, browser navigation, function execution, transaction rollback, syntax checking, and expression evaluation.
-* Recognize that stacks are one of the most fundamental data structures used by compilers, operating systems, databases, IDEs, browsers, and enterprise business applications.
-
-Most importantly, students will realize that every time they click **Undo**, press the **Back** button in a browser, execute a function, or roll back a transaction, they are interacting with one of the most powerful and widely used data structures in computer science—the **Stack**.
-
-
-# Extending the Insurance Management System
-
-# Action History Module using Stack
-
-# Business Problem
+## Business Problem
 
 Imagine you are working as a Software Engineer at **Transflower Insurance Services**.
 
@@ -496,7 +475,7 @@ How can the software remember what was done last? This is where the **Stack Data
 
   
 
-# Existing Insurance Management System
+## Existing Insurance Management System
 
 ```text
 Insurance Management System
@@ -511,7 +490,7 @@ Insurance Management System
 ```
  
 
-# Understanding Action History
+## Understanding Action History
 
 Suppose an executive performs the following operations.
 
@@ -564,7 +543,7 @@ Notice that the **latest operation is always on the Top.**
 
 
 
-# Step 1: Design Business Operation
+#### Step 1: Design Business Operation
 
 Every operation should store:
 
@@ -584,7 +563,7 @@ Time : 10:15 AM
 ```
 
 
-# Step 2: Create ActionHistory Class
+#### Step 2: Create ActionHistory Class
 
 ```csharp
 using System;
@@ -606,7 +585,7 @@ public class ActionHistory
 Each object represents one business operation.
 
 
-# Step 3: Create ActionHistoryStack Service
+#### Step 3: Create ActionHistoryStack Service
 
 ```text
 Insurance Management System
@@ -622,10 +601,9 @@ This service is responsible for
 * Peek
 * Display
 * IsEmpty
+#### Step 4: Push()
 
-# Step 4: Push()
-
-## Business Scenario
+### Business Scenario
 
 Customer Rahul purchases a policy. 
 Operation
@@ -660,7 +638,7 @@ Update Premium
 Create Policy
 ```
 
-### C#
+#### C#
 
 ```csharp
 public void Push(ActionHistory action)
@@ -672,7 +650,7 @@ public void Push(ActionHistory action)
 ```
 
 
-# Step 5: Pop()
+#### Step 5: Pop()
 
 Manager says
 
@@ -717,7 +695,7 @@ public ActionHistory Pop()
 ```
 
 
-# Step 6: Peek()
+####Step 6: Peek()
 
 Before undo, the manager asks
 
@@ -741,8 +719,7 @@ public ActionHistory Peek()
 }
 ```
 
-
-# Step 7: Display()
+#### Step 7: Display()
 
 Display complete history.
 
@@ -774,7 +751,7 @@ public void Display()
 ```
 
 
-# Step 8: IsEmpty()
+#### Step 8: IsEmpty()
 
 At application startup
 
@@ -790,7 +767,7 @@ Yes
 
 No Undo is available.
 
-### C#
+####  C#
 
 ```csharp
 public bool IsEmpty()
@@ -799,7 +776,7 @@ public bool IsEmpty()
 }
 ```
 
-# Step 9: Complete ActionHistoryStack Service
+#### Step 9: Complete ActionHistoryStack Service
 
 ```csharp
 using System;
@@ -850,7 +827,7 @@ public class ActionHistoryStack
 }
 ```
 
-# Step 10: Testing the Stack
+#### Step 10: Testing the Stack
 
 ```csharp
 ActionHistoryStack actionStack =
@@ -903,8 +880,7 @@ Console.WriteLine();
 Console.WriteLine("Remaining History");
 actionStack.Display();
 ```
-
-# Sample Output
+#### Sample Output
 
 ```text
 Action History
@@ -927,7 +903,7 @@ Remaining History
 1001 Rahul Customer Created
 ```
 
-# Enterprise Software Mapping
+#### Enterprise Software Mapping
 
 | Insurance Operation        | Stack Operation |
 | -------------------------- | --------------- |
@@ -940,6 +916,6 @@ Remaining History
 | Check if Undo is Available | IsEmpty         |
 
 
-# Learning Outcome
+## Learning Outcome
 
 By implementing the **Action History Module**, students experience how the **Stack** data structure supports real-world business requirements. Every important insurance operation is recorded as an action and pushed onto the stack. When an incorrect update occurs, the system can immediately **undo the most recent operation** using `Pop()`. Students gain hands-on experience with `Push`, `Pop`, `Peek`, `Display`, and `IsEmpty`, while also understanding how stacks power enterprise features such as **Undo/Redo**, **browser navigation**, **function call management**, **transaction rollback**, and **activity history**. This demonstrates that the Stack is not merely a theoretical concept but a practical foundation for building reliable, maintainable, and user-friendly enterprise software.
