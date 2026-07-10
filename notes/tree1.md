@@ -1,6 +1,4 @@
-# Tree Data Structure
-
-# Building Enterprise Software Through Relationships
+# Tree Data Structure :Building Enterprise Software Through Relationships
 
 > **"A Tree is not just a data structure; it is a model of how businesses organize information, represent relationships, and make searching millions of records fast and efficient."**
 
@@ -159,9 +157,7 @@ Term Whole Family Bike Car
 
 ## Height
 
-Longest path from root to the deepest leaf.
-
-Height helps determine how efficiently we can search.
+Longest path from root to the deepest leaf. Height helps determine how efficiently we can search.
 
 
 # Why Not Use an Array?
@@ -181,8 +177,6 @@ Family Floater
 ```
 
 Only a few comparisons are needed. That is why Trees make searching much faster.
-
----
 
 # Tree in the Insurance Management System
 
@@ -211,8 +205,6 @@ Insurance
 
 Each category contains multiple products. Perfect example of a Tree.
 
----
-
 # Business Scenario 1
 
 ## Insurance Product Catalog
@@ -235,8 +227,6 @@ Insurance
 
 Customers navigate categories naturally.
 
----
-
 # Business Scenario 2
 
 ## Company Organization
@@ -258,8 +248,6 @@ CEO
 
 Every employee reports to another employee.
 
----
-
 # Business Scenario 3
 
 ## Folder Structure
@@ -277,8 +265,6 @@ C:
 ```
 
 Your operating system itself uses Trees.
-
----
 
 # Business Scenario 4
 
@@ -302,7 +288,6 @@ InsuranceSolution
 ```
 
 Every ASP.NET Core project is organized like a Tree.
-
 
 # Business Scenario 5
 
@@ -343,17 +328,11 @@ Every web page is represented as a **DOM Tree**.
 
 ```
 HTML
-
 ↓
-
 Body
-
 ↓
-
 Div
-
 ↓
-
 Button
 ```
 
@@ -389,26 +368,17 @@ Machine Learning uses Decision Trees for prediction. For example,
 
 ```
 Age > 60?
-
 ↓
-
 Yes
-
 ↓
-
 Senior Citizen Policy
-
 ↓
-
 No
-
 ↓
-
 Regular Policy
 ```
 
 Insurance companies use such models for risk assessment.
-
 
 # Learning Outcome
 
@@ -427,13 +397,13 @@ It is one of the most important structures behind modern operating systems, data
 
 At Transflower, we don't teach Trees just to solve interview questions. We teach Trees because they help engineers understand **how real software organizes information, scales to millions of records, and powers the digital systems we use every day.**
 
-# Tree Data Structure
 
-# Understanding Nodes, Left, Right, Insertion, Traversal, and Deletion
+
+## Understanding Nodes, Left, Right, Insertion, Traversal, and Deletion
 
 > **"A Tree is not just a data structure. It represents relationships. Every node knows where it belongs, making searching, inserting, and deleting data much faster than a linear list."**
 
-# Introduction
+## Introduction
 
 Imagine you are building an **Insurance Management System**. Every customer has a unique **Policy Number**.
 
@@ -448,7 +418,7 @@ Imagine you are building an **Insurance Management System**. Every customer has 
 
 If these policy numbers are stored in an array, searching may require checking many elements Instead, we organize them into a **Binary Search Tree (BST)**. A Binary Search Tree automatically keeps data organized.
 
-# What is a Node?
+## What is a Node?
 
 A **Node** is the basic building block of a Tree. Each node contains three parts.
 
@@ -478,10 +448,9 @@ class TreeNode
     }
 }
 ```
+ 
 
----
-
-# Root Node
+## Root Node
 
 The first node inserted becomes the **Root**. Suppose the first policy created is
 
@@ -496,7 +465,7 @@ The first node inserted becomes the **Root**. Suppose the first policy created i
 This is the Root Node.
 
 
-# Left and Right Child
+## Left and Right Child
 
 Every node can have **at most two children**.
 
@@ -517,7 +486,7 @@ Right > Parent
 This rule makes searching efficient.
 
 
-# Adding Nodes (Insertion)
+## Adding Nodes (Insertion)
 
 Imagine customers purchase policies in this order.
 
@@ -540,7 +509,7 @@ Imagine customers purchase policies in this order.
 Let's insert them one by one.
 
 
-## Step 1
+### Step 1
 
 Insert 150
 
@@ -548,8 +517,7 @@ Insert 150
 150
 ```
 
-
-## Step 2
+### Step 2
 
 Insert 100
 
@@ -564,7 +532,7 @@ Move left.
 ```
 
 
-## Step 3
+### Step 3
 
 Insert 200
 
@@ -579,7 +547,7 @@ Move right.
 ```
 
 
-## Step 4
+### Step 4
 
 Insert 75
 
@@ -600,7 +568,7 @@ Go Left
 ```
 
 
-## Step 5
+### Step 5
 
 Insert 125
 
@@ -621,7 +589,7 @@ Go Right
 ```
 
 
-## Step 6
+### Step 6
 
 Insert 175
 
@@ -634,7 +602,7 @@ Insert 175
 ```
 
 
-## Step 7
+### Step 7
 
 Insert 250
 
@@ -649,7 +617,7 @@ Insert 250
 This is our Binary Search Tree.
 
 
-# Searching a Node
+## Searching a Node
 
 Suppose we want Policy **175**.
 
@@ -684,12 +652,12 @@ Only three comparisons were needed.
 Imagine searching 10 lakh policies this way!
 
 
-# Tree Traversal
+## Tree Traversal
 
 Traversal means **visiting every node**. There are three important traversals.
 
 
-# 1. Preorder Traversal
+#### 1. Preorder Traversal
 
 Visit
 
@@ -732,7 +700,7 @@ Output
 Useful for copying a tree.
 
 
-# 2. Inorder Traversal
+#### 2. Inorder Traversal
 
 Visit
 
@@ -765,7 +733,7 @@ Output
 Notice something interesting? The values are automatically sorted. That is why Binary Search Trees are popular.
 
 
-# 3. Postorder Traversal
+#### 3. Postorder Traversal
 
 Visit
 
@@ -798,11 +766,11 @@ Output
 Useful when deleting an entire tree.
 
 
-# Removing Nodes (Deletion)
+## Removing Nodes (Deletion)
 
 Deletion has three cases.
 
-## Case 1
+### Case 1
 
 Deleting a Leaf Node
 
@@ -831,7 +799,7 @@ Easy.
 Just remove it.
 
 
-## Case 2
+### Case 2
 
 Deleting a Node with One Child
 
@@ -861,7 +829,7 @@ Delete
 
 The child replaces the deleted node.
 
-## Case 3
+### Case 3
 
 Deleting a Node with Two Children
 
@@ -906,11 +874,11 @@ Final Tree
 The tree remains valid.
 
 
-# Enterprise Applications of Trees
+##  Enterprise Applications of Trees
 
 Trees are used everywhere.
 
-## 1. Insurance Product Hierarchy
+### 1. Insurance Product Hierarchy
 
 ```text
 Insurance
@@ -921,7 +889,7 @@ Insurance
 ```
 
 
-## 2. Company Organization
+### 2. Company Organization
 
 ```text
 CEO
@@ -936,7 +904,7 @@ Employees
 ```
 
 
-## 3. Windows Folder Structure
+### 3. Windows Folder Structure
 
 ```text
 C:
@@ -946,7 +914,7 @@ C:
 └── Windows
 ```
 
-## 4. HTML DOM
+### 4. HTML DOM
 
 ```text
 HTML
@@ -961,7 +929,7 @@ Button
 
 Every web page is a Tree.
 
-## 5. Database Indexes
+### 5. Database Indexes
 
 SQL Server
 MySQL
@@ -971,7 +939,7 @@ PostgreSQL
 All use B-Trees or B+ Trees for fast searching.Without Trees, Searching millions of customer records would become very slow.
 
 
-# Summary
+## Summary
 
 | Operation   | Description                               |
 | ----------- | ----------------------------------------- |
@@ -986,7 +954,7 @@ All use B-Trees or B+ Trees for fast searching.Without Trees, Searching millions
 | Postorder   | Left → Right → Root                       |
 | Delete      | Remove leaf, one-child, or two-child node |
 
-# Learning Outcome
+## Learning Outcome
 
 After completing this chapter, students will be able to:
 
@@ -998,7 +966,7 @@ After completing this chapter, students will be able to:
 * Delete nodes in all three cases (leaf, one child, and two children).
 * Relate Trees to enterprise applications such as database indexing, file systems, ASP.NET project structures, HTML DOM trees, and insurance product hierarchies.
 
-Most importantly, students will understand that **Trees are not just interview topics—they are one of the most fundamental data structures behind operating systems, databases, web browsers, enterprise software, and AI systems.**
+Most importantly, we will understand that **Trees are not just interview topics—they are one of the most fundamental data structures behind operating systems, databases, web browsers, enterprise software, and AI systems.**
 
 Below is a **simple C# Console Application** that demonstrates the basic operations of a **Binary Search Tree (BST)**:
 
@@ -1259,4 +1227,3 @@ Insert 250
     / \    / \
   75 125 175 250
 ```
-
