@@ -91,6 +91,9 @@ Our approach at Transflower is simple:
 
 > “Understand first, implement next.”
 
+
+ //changes
+ 
 We blend:
 
 * 🪴 **Visualization** — understanding how data lives in memory.
