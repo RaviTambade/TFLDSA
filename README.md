@@ -93,7 +93,7 @@ Our approach at Transflower is simple:
 
 
  //changes
- 
+
 We blend:
 
 * 🪴 **Visualization** — understanding how data lives in memory.
