@@ -1,6 +1,4 @@
-# Why Binary Search Trees Become Slow
-
-# Understanding the Need for Balanced Trees
+# Why Binary Search Trees Become Slow : Understanding the Need for Balanced Trees
 
 > **"A Binary Search Tree is efficient only when it remains balanced. If it becomes unbalanced, it behaves like a Linked List, and we lose its performance advantage."**
 

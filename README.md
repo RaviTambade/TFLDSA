@@ -79,7 +79,7 @@ and how to **design smart steps** to solve problems (like planning the watering 
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/18.linkedlist.md">16.Using Linked List</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/19.doublylinkedlist.md">17.Using Dobuly Linked List</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/20.circularlinkedlist.md">18.Using Circular linked List</a><br>
-<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/queue.md">19.Queue (FIFO)</a><br>
+<a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/Queue.md">19.Queue (FIFO)</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/Stack.md">20.Stack (LIFO)</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/14..greenhouse.md">21.Transflower Greenhouse Automation</a><br>
 <a href="https://github.com/RaviTambade/TFLDSA/blob/main/notes/15.TFLGreenhouseimpl.md">22.Applying Logic for Transflower Greenhouse Solution</a><br>
